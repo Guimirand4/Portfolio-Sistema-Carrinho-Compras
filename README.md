@@ -12,14 +12,6 @@
 
 ---
 
-## 📸 Demonstração
-
-<img src="demo.gif" alt="Demonstração no terminal" width="700"/>
-
-> 🎥 *Você pode substituir `demo.gif` por um print ou uma gravação de tela usando Licecap ou OBS Studio.*
-
----
-
 ## ⚙️ Funcionalidades
 
 ✔️ Adicionar itens com nome, preço e quantidade  
