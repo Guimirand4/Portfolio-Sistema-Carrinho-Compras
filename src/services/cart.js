@@ -7,11 +7,12 @@ async function deleteItem(userCart, name){
     const index = userCart.findIndex(item => item.name === name);
     if (index !== -1) {
         userCart.splice(index, 1);
+        console.log(`Item with name ${name} has been deleted from the cart.`);
     } else {
         console.log(`Item with name ${name} not found in the cart.`);
     }
 
-    console.log(`Item with name ${name} has been deleted from the cart.`);
+    
 }
 
 async function removeItem(userCart, item) {

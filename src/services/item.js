@@ -1,11 +1,12 @@
 // casos de uso dos itens
-async function creatItem(name, price, quantity) {
+export default function createItem(name, price, quantity) {
     return {
         name,
         price,
         quantity,
-        subtotal: () => price * quantity
+        subtotal() {
+            return this.price * this.quantity;
+        }
     };
-};
+}
 
-export default creatItem;
